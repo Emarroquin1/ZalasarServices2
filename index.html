@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/cssForm.css">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" type="text/css" href="css/cssModal.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body style="    background: linear-gradient(#cac5c5, #1c9cd3);">
+
+ 
+      <h1 style="text-align: center; background-color: transparent;">GitHub  <img  style="width: 35px; height: 35px; vertical-align: 0; " src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></h1>
+
+    </div>
+    
+    <nav class="navbar navbar-expand-lg  navbar-light bg-ligh">
+        <div class="container-fluid">
+            <img  style="width: 35px; height: 35px; vertical-align: 0; 
+            "src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-center" id="ulNavbar">
+
+                <li class="nav-item">
+                 
+                
+                    <a class="nav-link active" style="color: #0aaadb;" href="ejercicio2.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active"  target="_blank" href="https://docs.github.com/es/get-started/learning-about-github">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://developer.mozilla.org/es/docs/Learn/Common_questions/Using_Github_pages#:~:text=GitHub%20es%20un%20sitio%20%22social,de%20control%20de%20versiones%20Git." target="_blank">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="PreguntasFreq.html">Preguntas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactanos.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="btnCargar" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor:pointer;">Login</a>
+              </li>
+            </ul>
+        
+     
+           
+          </div>
+        </div>
+      </nav>
+
+      <!-- Modal Login -->
+      <div class="modal fade" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+
+                  <img  style="width: 35px; height: 35px; vertical-align: 0; 
+                  "src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+
+                    <h6 style="margin-left: 30%;">      Inicio de Sesion</h6>
+                    <input type="button" class="btn-close" data-bs-dismiss="modal">
+                    
+                </div>
+                <div class="modal-body">
+                  <div class="user-box">
+                        <div class="user-box"><input type="text" name="" required="">
+                      <label>Correo Electronico</label>
+                    </div>
+                    <div class="user-box">
+                      <input type="password" name="" required="">
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                  <a type="submit" id="enviarBtn" style="margin-top: 1%;" name="enviar" value="Enviar"  class="btn btn-primary lucecitas">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Iniciar Sesion</a>
+               
+                  
+             
+                  <a style="margin-top: 1%;" type="reset" name="cancelar" value="Cerrar" data-bs-dismiss="modal" class="btn btn-dark lucecitas2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Cancelar</a>
+                  </div>
+               
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="box-shadow: -7px 11px 26px -1px rgba(23,149,166,1);
+      -webkit-box-shadow: -7px 11px 26px -1px rgb(2, 60, 68);
+      -moz-box-shadow: -7px 11px 26px -1px rgb(2, 60, 68);">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://soloelectronicos.files.wordpress.com/2021/10/ecc67-1be_tscpaopiztydbm4ecfg.png" class="d-block w-100 imgCarusel" alt="...">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://i.ytimg.com/vi/UxP8GKu6Dqw/maxresdefault.jpg" class="d-block w-100 imgCarusel"  alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img  src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png" class="d-block w-100 imgCarusel" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img  src="https://res.cloudinary.com/practicaldev/image/fetch/s--sWV8Y0kc--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/kml9j34p9taplrnqtcez.jpg" class="d-block w-100 imgCarusel" alt="...">
+           
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    
+    
+    
+    
+
+    <div class="row text-center"  style="margin-top: 5%; background-color: black; color: white;
+    box-shadow: 7px 10px 13px 0px rgb(2, 60, 68);
+-webkit-box-shadow: 7px 10px 13px 0px rgb(2, 60, 68);
+-moz-box-shadow: 7px 10px 13px 0px rgb(2, 36, 41);">
+
+      <div class="col-lg-4 col-md-12">
+
+        <img class="ImgTabla" src="https://images8.alphacoders.com/430/thumb-1920-430944.jpg" alt="Imagen 1" >
+        <h3>Sobre Github</h3>
+
+      <p>GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. 
+        Se utiliza principalmente para la creación de código fuente de programas de ordenador.</p>
+
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+
+        <img class="ImgTabla" src="https://kinsta.com/es/wp-content/uploads/sites/8/2020/01/git-vs-github-1024x512.png" alt="Imagen 1">
+        <h3>Curiosidad</h3>
+
+        <p>En la actualidad GitHub cuenta con más de 26 millones de usuarios en todo el mundo y ya supera los 70 millones de proyectos en línea.</p>
+
+
+      </div>
+      
+      <div class="col-lg-4 col-md-12">
+
+        <img class="ImgTabla" src="https://www.cnet.com/a/img/resize/e6f3c27411296d437c342afa077cc2a9d08a401c/hub/2019/07/29/6109b01f-e32f-457d-9533-cd55b68ba5ba/d6j9ongwaam4yrm.png?auto=webp&fit=crop&height=675&width=1200" alt="Imagen 1">
+        <h3>Fundación</h3>
+
+        <p>Github fue desarrollado por Chris Wanstrath, P. J. Hyett, Tom Preston-Werner y Scott Chacon usando Ruby on Rails, 
+          y empezó en 2008. Aunque la compañía, Github, Inc, existía desde 2007.</p>
+
+
+
+      </div>
+
+    </div>
+
+ 
+
+      
+
+
+
+
+<h3 style="text-align: center; margin-top: 5%; margin-bottom: 5%;">NUESTRO PORTAFOLIO</h3>
+
+
+<div class="row text-center" style="background-color: black; color: white;
+box-shadow: 7px 10px 13px 0px rgba(23,149,166,0.75);
+-webkit-box-shadow: 7px 10px 13px 0px rgba(23,149,166,0.75);
+-moz-box-shadow: 7px 10px 13px 0px rgba(23,149,166,0.75);">
+
+  <div class="col-lg-4 col-md-12">
+
+    <img class="ImgTabla" src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2021/01/22/000742773W.jpg" alt="Imagen 1">
+
+
+    <p>Para superar los retos propuestos por la pandemia, fue, 
+      es y seguirá siendo imprescindible conocer las tendencias tecnológicas 
+      que se avizoran en el panorama y saber cómo aprovecharlas.</p>
+
+  </div>
+
+<div class="col-lg-4 col-md-12">
+
+  <img class="ImgTabla" src="https://portalinnova.cl/wp-content/uploads/2022/05/Asociacion-gremial-de-empresas-tecnologicas-MITI.jpg" alt="Imagen 1">
+       
+
+  <p>Además, es necesario documentar, “el factor remoto obliga a poner muchas más cosas por escrito a que si estuviéramos todos en la misma oficina. 
+    Por ejemplo: buenas prácticas, pautas de las reuniones, el proceso de la toma de decisiones, conocimiento del negocio, y coordinación de tareas pendientes 
+    (Trello, facilita mucho esta gestión)” explica Parada.</p>
+
+
+</div>
+
+
+<div class="col-lg-4 col-md-12">
+
+  <img class="ImgTabla" src="https://www.ikusi.com/wp-content/uploads/2022/06/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpeg" alt="Imagen 1">
+       
+
+            <p>La colaboración de varios desarrolladores en tiempo real. 
+              Es decir, nos permite centralizar el contenido del repositorio para poder colaborar con los otros miembros de nuestra organización.</p>
+
+
+
+</div>
+
+</div>
+
+
+<h3 style="text-align: center; margin-top: 5%; margin-bottom: 5%;">TESTIMONIOS</h3>
+
+<div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+
+        <div class="d-md-block textCarusel2" >
+          <h5 >Gran labor</h5>
+          <p>hace poco tiempo que conozco GitHub. Si puedo decir, aunque no he profundizado en el trabajo que desempeñan,  
+            que su trabajo <br> es verdaderamente muy valorado en todo lo que he nesitado. En breves palabras, seriedad y profesionalidad desinterezada. <br>
+            Fecha de la experiencia: 17 de septiembre de 2022</p>
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+   
+        <div class=" d-md-block textCarusel2">
+          <h5>Muy gratificante, facil de usar como usario sin complicaciones.</h5>
+          <p>La facilidad de uso es una gran ventaja, ademas tener ordenado por proyectos , 
+            las revisiones ofrecen una perspectiva de los cambios realiados de una manera ordenada, 
+            la posibilidad de tener una interaccion con un grupo de trabajo o con una comunidad si es un proyecto abierto.</p>
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+ 
+        <div class="d-md-block textCarusel2">
+          <h5>Apoyo para el desarrollo de software</h5>
+          <p>Me gusta que es un software bastante completo te ayuda a dar seguimiento a los errores y además brinda resolución de problemas.
+            Es una herramienta gratuita y fácil de usar que admite archivos de rebaja lo cual es importante para fines de documentación.</p>
+          <br>
+          <br>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous2</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next2</span>
+    </button>
+  </div>
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<footer class="bg-light text-center text-lg-start">
+
+
+    <div class="p-2 row" style="background-color: rgba(0, 0, 0, 0.2); ">
+ 
+
+     <div class="col-10 text-center">
+      Erick Alberto García Marroquín 018920 <br>
+      Yasser alexander Arriola Castro 059520 <br>
+      Jhon James Boyaca Uribe 196420
+
+     </div>
+     
+     <div class="col-2">
+      <div style="width: 100%; text-align: center;">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="imgFooter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png" alt="">
+
+        </a>
+        <a href="https://www.google.com/account/about/" target="_blank">
+          <img class="imgFooter"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCoaTQF2lpmRTa8YkOqVSQ4x-iJtpq4aH1C3ps5c&s">
+
+        </a>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+
+          <img class="imgFooter" src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png"> 
+
+        </a>
+        
+      </div>
+
+</div>
+    </div>
+   
+  
+  </footer>
+   <script src="Java/Ejercicio2.js"></script>
+</body>
+</html>
